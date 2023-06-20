@@ -1,0 +1,27 @@
+.con-section{
+  height: 100vw;
+  rotate: -90deg;
+  background-color: rgb(207, 152, 80);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+details{
+  background-color: aquamarine;
+}
+
+summary{
+  height: 10vw;
+  cursor: pointer;
+}
+
+details[open]{
+  flex-grow: 1;
+}
+
+.con-partition{
+  height: 100%;
+  background-color: antiquewhite;
+}
+
